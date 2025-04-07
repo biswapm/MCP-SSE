@@ -17,8 +17,6 @@ const server = new McpServer({
 const API_KEY = process.env.API_KEY;
 const PORT = process.env.PORT || 3001;
 
-
-
 // Add an addition tool
 server.tool("add",
   { a: z.number(), b: z.number() },
