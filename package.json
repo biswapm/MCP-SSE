@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.8.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "scripts": {
+    "dev": "ts-node index.ts",
+    "prepare": "npm run build",
+    "watch": "tsc --watch"
+  },
+  "name": "mcp-sse",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "Pujarini Mohapatra",
+  "license": "MIT",
+  "keywords": []
+}
